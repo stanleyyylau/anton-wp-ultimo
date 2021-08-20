@@ -48,6 +48,7 @@ class WU_Plan {
     'price_1',
     'price_3',
     'price_12',
+     'price_36',
     'description',
     'top_deal',
     'custom_domain',

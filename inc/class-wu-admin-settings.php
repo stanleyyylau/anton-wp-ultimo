@@ -469,6 +469,7 @@ class WU_Settings {
       1  => __('Monthly', 'wp-ultimo'), 
       3  => __('Quarterly', 'wp-ultimo'), 
       12 => __('Yearly', 'wp-ultimo'), 
+      36 => __('三年', 'wp-ultimo'), 
     );
 
     /**
@@ -782,6 +783,14 @@ class WU_Settings {
             'type'          => 'checkbox',
             'default'       => true,
           ),
+
+        'enable_price_36' => array(
+            'title'         => __('Enable 3 Years Pricing', 'wp-ultimo'),
+            'desc'          => __('Mark this checkbox if you want to enable yearly billing.', 'wp-ultimo'),
+            'tooltip'       => '',
+            'type'          => 'checkbox',
+            'default'       => true,
+        ),
 
           'default_pricing_option' => array(
             'title'         => __('Default Billing Option', 'wp-ultimo'),

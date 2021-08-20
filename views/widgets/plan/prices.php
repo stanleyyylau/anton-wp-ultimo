@@ -30,7 +30,8 @@
         $prices = array(
           1  => __('Monthly Price', 'wp-ultimo'), 
           3  => __('3 mo Price', 'wp-ultimo'), 
-          12 => __('Yearly Price', 'wp-ultimo'), 
+          12 => __('Yearly Price', 'wp-ultimo'),
+            36 => __('3 Years Price', 'wp-ultimo'),
         );
         
         foreach ($prices as $price => $label) : 
