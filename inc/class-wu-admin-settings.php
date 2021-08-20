@@ -784,13 +784,13 @@ class WU_Settings {
             'default'       => true,
           ),
 
-        'enable_price_36' => array(
-            'title'         => __('Enable 3 Years Pricing', 'wp-ultimo'),
-            'desc'          => __('Mark this checkbox if you want to enable yearly billing.', 'wp-ultimo'),
-            'tooltip'       => '',
-            'type'          => 'checkbox',
-            'default'       => true,
-        ),
+            'enable_price_36' => array(
+                'title'         => __('Enable 3 Years Pricing', 'wp-ultimo'),
+                'desc'          => __('Mark this checkbox if you want to enable yearly billing.', 'wp-ultimo'),
+                'tooltip'       => '',
+                'type'          => 'checkbox',
+                'default'       => true,
+            ),
 
           'default_pricing_option' => array(
             'title'         => __('Default Billing Option', 'wp-ultimo'),

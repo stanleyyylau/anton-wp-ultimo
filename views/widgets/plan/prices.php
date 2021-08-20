@@ -26,11 +26,11 @@
       <div class="wrapper-prices" v-show="!is_free && !is_contact_us" style="overflow: hidden; border-bottom: 1px solid rgb(236, 236, 236); padding-bottom: 20px;">
       
         <?php
-        
+
         $prices = array(
-          1  => __('Monthly Price', 'wp-ultimo'), 
-          3  => __('3 mo Price', 'wp-ultimo'), 
-          12 => __('Yearly Price', 'wp-ultimo'),
+            1 => __('Monthly Price', 'wp-ultimo'),
+            3 => __('3 mo Price', 'wp-ultimo'),
+            12 => __('Yearly Price', 'wp-ultimo'),
             36 => __('3 Years Price', 'wp-ultimo'),
         );
         

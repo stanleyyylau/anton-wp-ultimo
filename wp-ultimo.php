@@ -28,9 +28,6 @@
  * @package  WP_Ultimo
  * @version  1.10.13
  */
- 
-
-
 
 if (!defined('ABSPATH')) {
   exit; // Exit if accessed directly.
@@ -729,10 +726,3 @@ $config = include plugin_dir_path(__FILE__).'/config.php';
 
 // Set global
 $GLOBALS['WP_Ultimo'] = WP_Ultimo($config);
-
-
-
-
-
-
-

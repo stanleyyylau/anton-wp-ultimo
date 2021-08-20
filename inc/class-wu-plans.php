@@ -676,7 +676,7 @@ class WU_Plans {
         '1'  => __('monthly', 'wp-ultimo'),
         '3'  => __('quaterly', 'wp-ultimo'),
         '12' => __('yearly', 'wp-ultimo'),
-          '36' => __('3 years', 'wp-ultimo'),
+        '36' => __('3 years', 'wp-ultimo'),
       );
 
       foreach($billing_periods as $period => $period_label) {
@@ -734,12 +734,12 @@ class WU_Plans {
 
     } // end if;
 
-      if (isset($_POST['price_36'])) {
+    if (isset($_POST['price_36'])) {
 
-          $plan->price_36 = sanitize_text_field($_POST['price_36']);
+        $plan->price_36 = sanitize_text_field($_POST['price_36']);
 
-      } // end if;
-    
+    } // end if;
+
     $_POST['setup_fee'] = WU_Util::to_float($_POST['setup_fee']);
 
     $plan->setup_fee    = sanitize_text_field($_POST['setup_fee']); // @since 1.7.0
