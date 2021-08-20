@@ -1,0 +1,187 @@
+#wp-ultimo.wrap {
+  margin: 0 0 0 -20px;
+  position: relative;
+  overflow: hidden;
+}
+#wp-ultimo.wrap a,
+#wp-ultimo.wrap a:hover {
+  text-decoration: none;
+}
+
+#wp-ultimo-header {
+  background-color: #f9f9f9;
+  border-bottom: solid 1px #ececec;
+}
+
+#wp-ultimo-logo {
+  padding: 20px;
+}
+#wp-ultimo-logo img {
+  max-width: 230px;
+  display: inline-block;
+}
+#wp-ultimo-logo .version {
+  vertical-align: middle;
+}
+
+ul#wp-ultimo-menu {
+  border-top: solid 1px #ececec;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul#wp-ultimo-menu li {
+  margin: 0;
+  padding: 0;
+}
+ul#wp-ultimo-menu li a {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  border-right: solid 1px #ececec;
+}
+ul#wp-ultimo-menu li a.active {
+  color: #111111;
+}
+
+#wp-ultimo-content {
+  padding: 20px;
+}
+
+#wpu-about .wp-badge {
+  background: url(../img/badge.png) center 24px no-repeat #ffffff !important;
+  color: #333333;
+}
+
+/**
+ * About Page
+ */
+/**
+ * Account Page
+ */
+#wp-ultimo-change-plan .inside {
+  margin: 0;
+  padding: 0;
+}
+
+.wu-plan-change > div:first-child {
+  border: none;
+}
+
+select.select-streched {
+  width: 100%;
+}
+
+.wu-plan-frequency {
+  padding-bottom: 10px;
+}
+
+.wu-plan-selector {
+  overflow: hidden;
+}
+
+.wu-plan-selector .plan-price {
+  float: right;
+  background: #f9f9f9;
+  padding: 7px;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.wu-plan-selector .wu-plan-selector-plan.wu-plan {
+  overflow: hidden;
+  padding: 12px;
+  border-bottom: 1px solid #ececec;
+}
+.wu-plan-selector .wu-plan-selector-plan.wu-plan strong {
+  font-size: 11px;
+}
+
+.wu-plan-selector .wu-plan-selector-plan.wu-plan.plan-active {
+  background: #f9f9f9;
+}
+
+.wu-change-button {
+  padding: 12px;
+}
+
+.wu-plan-selector .wu-plan-selector-plan.wu-plan:last-child {
+  border-bottom: none;
+}
+
+/**
+ * Stripe Button 
+ */
+body .stripe-button-el {
+  width: 100%;
+  background: #0085ba;
+  border-color: #0073aa #006799 #006799;
+  -webkit-box-shadow: 0 1px 0 #006799;
+          box-shadow: 0 1px 0 #006799;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;
+  font-size: 13px;
+  line-height: 26px;
+  height: 28px;
+  margin: 0;
+  padding: 0 10px 1px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body .stripe-button-el span {
+  background: none;
+  font-size: 13px;
+  line-height: auto;
+}
+
+/**
+ * Gumroad
+ */
+.buyer-bar-container {
+  top: 152px !important;
+  right: 20px !important;
+}
+
+div.wp-filter li.selector-inactive {
+  border-right: solid 1px #ececec;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+/**
+ * Sites List
+ */
+body #wu-mb-sites-lists .inside,
+body #wu-mb-site-selector .inside {
+  padding: 0;
+  margin-top: 0;
+}
+
+body table#wu-sites-list {
+  border: none;
+  margin: 0;
+}
+body table#wu-sites-list th {
+  width: 30px !important;
+}
+body table#wu-sites-list .wu-sites-list-actions td {
+  border-top: solid 1px #ececec;
+}
+
+.template-user-site {
+  background-color: #eeeeee;
+  font-size: 12px;
+  border-radius: 2px;
+  padding: 4px 8px;
+}

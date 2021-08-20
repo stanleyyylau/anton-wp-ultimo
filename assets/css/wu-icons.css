@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "wu-icons";
+  src: url("../fonts/wu-icons.eot?rodi9f");
+  src: url("../fonts/wu-icons.eot?rodi9f#iefix") format("embedded-opentype"),
+  url("../fonts/wu-icons.ttf?rodi9f") format("truetype"),
+  url("../fonts/wu-icons.woff?rodi9f") format("woff"),
+  url("../fonts/wu-icons.svg?rodi9f#wu-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="wu-icons"],
+[class*=" wu-icons"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "wu-icons" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wu-icons-credit-card-alt:before {
+  content: "\e907";
+}
+.wu-icons-cc-diners-club:before {
+  content: "\e900";
+}
+.wu-icons-cc-american-express:before {
+  content: "\e901";
+}
+.wu-icons-cc-jcb:before {
+  content: "\e902";
+}
+.wu-icons-cc-discover:before {
+  content: "\e903";
+}
+.wu-icons-cc-visa:before {
+  content: "\e904";
+}
+.wu-icons-cc-mastercard:before {
+  content: "\e905";
+}

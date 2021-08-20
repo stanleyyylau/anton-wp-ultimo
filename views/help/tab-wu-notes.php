@@ -1,0 +1,6 @@
+<h2><?php echo __('Important Notes', 'wp-ultimo') ?></h2>
+
+<h4><?php _e('Changing Gateway with Active Subscriptions', 'wp-ultimo'); ?></h4>
+<p><?php _e('If you decide, for whatever reason, to change the active gateway in some point in the future, it is important to keep in mind that that change can have some undesired effects on current subscriptions. If you let valid credentials in the old gateway, WP Ultimo will handle the cancelation of subscription correctly using that, but the process will not occur automatically. <b>So, if you change the gateway, you should </b><i><b>alert</b></i><b> your users to cancel their subscriptions using the current gateway, and create new ones after the change occurs</b>', 'wp-ultimo'); ?></p>
+<h4><?php _e('Important Note about Plans', 'wp-ultimo'); ?></h4>
+<p><?php _e('Changing the prices of plans does not automatically changes the price of the subscriptions for users. When a user signs up in the platform, the price of the plan at that time is saved in his subscription, to avoid a myriad of problems. <b>Later versions will have a broadcast of plan price changes. This is really high on our priorities list.</b>', 'wp-ultimo'); ?></p>

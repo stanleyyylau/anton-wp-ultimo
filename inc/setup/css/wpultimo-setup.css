@@ -1,0 +1,583 @@
+.wpultimo-setup-content p, .wpultimo-setup-content table {
+  font-size: 1em;
+  line-height: 1.75em;
+  color: #666
+}
+
+body {
+  margin: 30px auto 24px !important;
+  box-shadow: none;
+  background: #f1f1f1;
+  padding: 0
+}
+
+#wc-logo {
+  border: 0;
+  margin: 0 0 24px;
+  padding: 0;
+  text-align: center
+}
+
+#wc-logo img {
+  max-width: 50%
+}
+
+.wpultimo-setup-content {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+  padding: 24px 24px 0;
+  background: #fff;
+  overflow: hidden;
+  zoom: 1
+}
+
+.wpultimo-setup-content h1, .wpultimo-setup-content h2, .wpultimo-setup-content h3,  .wpultimo-setup-content table {
+  margin: 0 0 24px;
+  border: 0;
+  padding: 0;
+  color: #666;
+  clear: none
+}
+.wpultimo-setup-content table{
+  margin:0;
+}
+
+.wpultimo-setup-content p {
+  margin: 0 0 24px
+}
+
+.wpultimo-setup #current-logo {
+  text-align: center;
+}
+
+.wpultimo-setup-content p span.error {
+  color: red;
+  font-weight: bold;
+}
+
+.wpultimo-setup-content p span.success {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.wpultimo-setup-content a {
+  color: #0091cd
+}
+
+.wpultimo-setup-content a:focus, .wpultimo-setup-content a:hover {
+  color: #111
+}
+
+.wpultimo-setup-content .form-table th {
+  width: 35%;
+  vertical-align: top;
+  font-weight: 400
+}
+
+.wpultimo-setup-content .form-table td {
+  vertical-align: top
+}
+
+.wpultimo-setup-content .form-table td input[type="text"],
+.wpultimo-setup-content .form-table td input[type="number"],
+.wpultimo-setup-content .form-table td select {
+  width: 100%;
+  box-sizing: border-box
+}
+
+.wpultimo-setup-content .form-table td input[size] {
+  width: auto
+}
+
+.wpultimo-setup-content .form-table td .description {
+  line-height: 1.5em;
+  display: block;
+  margin-top: .25em;
+  color: #999;
+  font-style: italic
+}
+
+.wpultimo-setup-content .form-table td .input-checkbox, .wpultimo-setup-content .form-table td .input-radio {
+  width: auto;
+  box-sizing: inherit;
+  padding: inherit;
+  margin: 0 .5em 0 0;
+  box-shadow: none
+}
+
+.wpultimo-setup-content .form-table .section_title td {
+  padding: 0
+}
+
+.wpultimo-setup-content .form-table .section_title td h2, .wpultimo-setup-content .form-table .section_title td p {
+  margin: 12px 0 0
+}
+
+.wpultimo-setup-content .form-table td, .wpultimo-setup-content .form-table th {
+  padding: 12px 0;
+  margin: 0;
+  border: 0
+}
+
+.wpultimo-setup-content .form-table td:first-child, .wpultimo-setup-content .form-table th:first-child {
+  padding-right: 1em
+}
+
+.wpultimo-setup-content .form-table table.tax-rates {
+  width: 100%;
+  font-size: .92em
+}
+
+.wpultimo-setup-content .form-table table.tax-rates th {
+  padding: 0;
+  text-align: center;
+  width: auto;
+  vertical-align: middle
+}
+
+.wpultimo-setup-content .form-table table.tax-rates td {
+  border: 1px solid #eee;
+  padding: 6px;
+  text-align: center;
+  vertical-align: middle
+}
+
+.wpultimo-setup-content .form-table table.tax-rates td input {
+  outline: 0;
+  border: 0;
+  padding: 0;
+  box-shadow: none;
+  text-align: center
+}
+
+.wpultimo-setup-content .form-table table.tax-rates td.sort {
+  cursor: move;
+  color: #ccc
+}
+
+.wpultimo-setup-content .form-table table.tax-rates td.sort:before {
+  content: "\f333";
+  font-family: dashicons
+}
+
+.wpultimo-setup-content .form-table table.tax-rates .add {
+  padding: 1em 0 0 1em;
+  line-height: 1em;
+  font-size: 1em;
+  width: 0;
+  margin: 6px 0 0;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  display: inline-block
+}
+
+.wpultimo-setup-content .form-table table.tax-rates .add:before {
+  content: "\f502";
+  font-family: dashicons;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+.wpultimo-setup-content .form-table table.tax-rates .remove {
+  padding: 1em 0 0 1em;
+  line-height: 1em;
+  font-size: 1em;
+  width: 0;
+  margin: 0;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  display: inline-block
+}
+
+.wpultimo-setup-content .form-table table.tax-rates .remove:before {
+  content: "\f182";
+  font-family: dashicons;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+.wpultimo-setup-content .wpultimo-setup-plugins {
+  width: 100%;
+  border-top: 1px solid #eee
+}
+
+.wpultimo-setup-content .wpultimo-setup-plugins thead th {
+  display: none
+}
+
+.wpultimo-setup-content .wpultimo-setup-plugins .plugin-name {
+  width: 30%;
+  font-weight: 700
+}
+
+.wpultimo-setup-content .wpultimo-setup-plugins td, .wpultimo-setup-content .wpultimo-setup-plugins th {
+  padding: 14px 0;
+  border-bottom: 1px solid #eee
+}
+
+.wpultimo-setup-content .wpultimo-setup-plugins td:first-child, .wpultimo-setup-content .wpultimo-setup-plugins th:first-child {
+  padding-right: 9px
+}
+
+.wpultimo-setup-content .wpultimo-setup-plugins th {
+  padding-top: 0
+}
+
+.wpultimo-setup-content .wpultimo-setup-plugins .page-options p {
+  color: #777;
+  margin: 6px 0 0 24px;
+  line-height: 1.75em
+}
+
+.wpultimo-setup-content .wpultimo-setup-plugins .page-options p input {
+  vertical-align: middle;
+  margin: 1px 0 0;
+  height: 1.75em;
+  width: 1.75em;
+  line-height: 1.75em
+}
+
+.wpultimo-setup-content .wpultimo-setup-plugins .page-options p label {
+  line-height: 1
+}
+
+@media screen and (max-width: 782px) {
+  .wpultimo-setup-content .form-table tbody th {
+      width: auto
+  }
+}
+
+.wpultimo-setup-content .twitter-share-button {
+  float: right
+}
+
+.wpultimo-setup-content .wpultimo-setup-next-steps {
+  overflow: hidden;
+  margin: 0 0 24px
+}
+
+.wpultimo-setup-content .wpultimo-setup-next-steps h2 {
+  margin-bottom: 12px
+}
+
+.wpultimo-setup-content .wpultimo-setup-next-steps .wpultimo-setup-next-steps-first {
+  float: left;
+  width: 50%;
+  box-sizing: border-box
+}
+
+.wpultimo-setup-content .wpultimo-setup-next-steps .wpultimo-setup-next-steps-last {
+  float: right;
+  width: 50%;
+  box-sizing: border-box
+}
+
+.wpultimo-setup-content .wpultimo-setup-next-steps ul {
+  padding: 0 2em 0 0;
+  list-style: none;
+  margin: 0 0 -.75em
+}
+
+.wpultimo-setup-content .wpultimo-setup-next-steps ul li a {
+  display: block;
+  padding: 0 0 .75em
+}
+
+.wpultimo-setup-content .wpultimo-setup-next-steps ul .setup-product a {
+  text-align: center;
+  font-size: 1em;
+  padding: 1em;
+  line-height: 1.75em;
+  height: auto;
+  margin: 0 0 .75em;
+  opacity: 1;
+}
+.wpultimo-setup-content .wpultimo-setup-next-steps ul .setup-product a.button-primary {
+  background-color: #0091cd;
+  border-color: #0091cd;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 0 rgba(0, 0, 0, .15);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 0 rgba(0, 0, 0, .15)
+}
+
+.wpultimo-setup-content .wpultimo-setup-next-steps ul li a:before {
+  color: #82878c;
+  font: 400 20px/1 dashicons;
+  speak: none;
+  display: inline-block;
+  padding: 0 10px 0 0;
+  top: 1px;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none !important;
+  vertical-align: top
+}
+
+.wpultimo-setup-content .wpultimo-setup-next-steps ul .documentation a:before {
+  content: "\f331"
+}
+
+.wpultimo-setup-content .wpultimo-setup-next-steps ul .howto a:before {
+  content: "\f223"
+}
+
+.wpultimo-setup-content .wpultimo-setup-next-steps ul .rating a:before {
+  content: "\f155"
+}
+
+.wpultimo-setup-content .wpultimo-setup-next-steps ul .support a:before {
+  content: "\f307"
+}
+
+.wpultimo-setup-content .updated, .wpultimo-setup-content .woocommerce-language-pack, .wpultimo-setup-content .woocommerce-tracker {
+  padding: 24px 24px 0;
+  margin: 0 0 24px;
+  overflow: hidden;
+  background: #f5f5f5
+}
+
+.wpultimo-setup-content .updated p, .wpultimo-setup-content .woocommerce-language-pack p, .wpultimo-setup-content .woocommerce-tracker p {
+  padding: 0;
+  margin: 0 0 12px
+}
+
+.wpultimo-setup-content .updated p:last-child, .wpultimo-setup-content .woocommerce-language-pack p:last-child, .wpultimo-setup-content .woocommerce-tracker p:last-child {
+  margin: 0 0 24px
+}
+
+.wpultimo-setup-steps {
+  padding: 0 0 24px;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+  color: #ccc;
+  width: 100%;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex
+}
+
+.wpultimo-setup-steps li {
+  width: 20%;
+  float: left;
+  padding: 0 0 .8em;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  border-bottom: 4px solid #ccc;
+  line-height: 1.4em
+}
+
+.wpultimo-setup-steps li:before {
+  content: "";
+  border: 4px solid #ccc;
+  border-radius: 100%;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -6px;
+  margin-bottom: -8px;
+  background: #fff
+}
+
+.wpultimo-setup-steps li a{
+  text-decoration: none;
+}
+.wpultimo-setup-steps li.active {
+  border-color: #0091cd;
+  color: #0091cd
+}
+.wpultimo-setup-steps li.active a{
+  color: #0091cd
+}
+
+.wpultimo-setup-steps li.active:before {
+  border-color: #0091cd
+}
+
+.wpultimo-setup-steps li.done {
+  border-color: #0091cd;
+  color: #0091cd
+}
+.wpultimo-setup-steps li.done a {
+  color: #0091cd
+}
+
+.wpultimo-setup-steps li.done:before {
+  border-color: #0091cd;
+  background: #0091cd
+}
+
+.wpultimo-setup .wpultimo-setup-actions {
+  overflow: hidden
+}
+
+.wpultimo-setup .wpultimo-setup-actions .button {
+  float: right;
+  font-size: 1.25em;
+  padding: .5em 1em;
+  line-height: 1em;
+  margin-right: .5em;
+  height: auto;
+  width: auto;
+}
+
+.wpultimo-setup .wpultimo-setup-actions .button-primary {
+  margin: 0;
+  float: right;
+  opacity: 1;
+}
+
+.wc-return-to-dashboard {
+  font-size: .85em;
+  color: #b5b5b5;
+  margin: 1.18em 0;
+  display: block;
+  text-align: center
+}
+
+
+.dtbaker_loading_button_current{
+  color:#CCC !important;
+  text-align: center;
+
+}
+.wpultimo-wizard-plugins li{
+  position: relative;
+}
+.wpultimo-wizard-plugins li span{
+  padding: 0 0 0 10px;
+  font-size: 0.9em;
+  color: #0091cd;
+  display: inline-block;
+  position: relative;
+
+}
+.wpultimo-wizard-plugins.installing li .spinner{
+  visibility: visible;
+}
+.wpultimo-wizard-plugins li .spinner{
+  display: inline-block;
+  position: absolute;
+
+}
+.wpultimo-setup-pages{
+  width:100%;
+}
+.wpultimo-setup-pages .check{
+  width:35px;
+}
+.wpultimo-setup-pages .item{
+  width:90px;
+}
+.wpultimo-setup-pages td,
+.wpultimo-setup-pages th{
+  padding:5px;
+}
+.wpultimo-setup-pages .status{
+  display: none;
+}
+.wpultimo-setup-pages.installing .status{
+  display: table-cell;
+}
+.wpultimo-setup-pages.installing .status span{
+  display: inline-block;
+  position: relative;
+}
+.wpultimo-setup-pages.installing .description{
+  display: none;
+}
+
+.wpultimo-setup-pages.installing .spinner{
+  visibility: visible;
+}
+.wpultimo-setup-pages  .spinner{
+  display: inline-block;
+  position: absolute;
+
+}
+
+.theme-presets ul{
+  list-style:none;
+  margin:0px 0 15px 0;
+  padding: 0;
+  overflow-x:auto;
+  display: block;
+  white-space: nowrap;
+}
+.theme-presets ul li{
+  list-style:none;
+  display: inline-block;
+  padding: 6px;
+  margin:0;
+  vertical-align: bottom;
+}
+.theme-presets ul li.current{
+  background: #FE529E;
+  border-radius: 5px;
+}
+.theme-presets ul li a{
+  float:left;
+  line-height:0;
+}
+.theme-presets ul li a img{
+  width: 90px;
+  height:auto;
+}
+
+/**
+* Support list
+*/
+.support-available li::before,
+.support-unavailable li::before {
+  content: "\f147";
+  font-family: dashicons;
+  font-weight: bold;
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  color: #fff;
+  line-height: 20px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.support-unavailable li::before {
+  background-color: darkred;
+  content: "\f460";
+}
+
+.support-available li {
+  color: green;
+}
+
+.support-unavailable li {
+  color: darkred;
+}
+
+.wu-hosting-notice {
+  margin-bottom: 15px;
+}
+
+.wu-hosting-notice, .wu-hosting-notice * {
+  font-size: 11px;
+}
+
+.wu-hosting-notice p {
+  margin: 0px 0 10px;
+}
+
+.wu-hosting-notice .dashicons {
+  height: auto;
+  line-height: 8px;
+  width: auto;
+  padding: 3px;
+}

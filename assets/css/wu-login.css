@@ -1,0 +1,72 @@
+/* Body BG */
+body {
+  background-image: none;
+  background-position: center center;
+  background-size: cover;
+}
+
+.wu-setup .button .dashicons,
+.wu-setup .button .dashicons-before:before {
+  height: 16px;
+  font-size: 16px;
+  vertical-align: sub;
+}
+
+.wu-setup form#loginform,
+.wu-setup #nav,
+.wu-setup #backtoblog {
+  padding: 26px 0 46px;
+}
+.wu-setup form#loginform p,
+.wu-setup #nav p,
+.wu-setup #backtoblog p {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.wu-setup .button-large {
+  display: block;
+  float: none;
+  width: 100%;
+}
+
+.wu-setup form#loginform p.submit {
+  margin: 0 0 -46px 0;
+  padding: 24px;
+  background-color: #efefef;
+  position: relative;
+  box-sizing: border-box;
+  float: none;
+  overflow: hidden;
+  width: 100%;
+}
+.wu-setup form#loginform p.submit button,
+.wu-setup form#loginform p.submit a,
+.wu-setup form#loginform p.submit input {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+#nav,
+#backtoblog {
+  margin: 0 0 5px 0 !important;
+  padding: 12px 0 !important;
+  text-align: center;
+  font-size: 11px !important;
+}
+
+#backtoblog {
+  display: none;
+}
+
+.wu-accounts-link {
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  margin: 20px auto -10px auto;
+  display: block;
+}
+
+body .login h1 a {
+  width: auto !important;
+}
